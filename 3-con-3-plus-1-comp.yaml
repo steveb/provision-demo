@@ -1,0 +1,19 @@
+- name: Controller
+  count: 3
+  defaults:
+    image:
+      href: file:///var/lib/ironic/images/overcloud-full.qcow2
+      checksum: ca859ee7008151447f4fe51ef3049d1c202cffd82b07f34821b705eae193adb5eae0562156fbb3883382425b1ce0aa5e4ef58a63f3aaea18a35cd04d8d56e26d
+      kernel: file:///var/lib/ironic/images/overcloud-full.vmlinuz
+      ramdisk: file:///var/lib/ironic/images/overcloud-full.initrd
+- name: Compute
+  count: 4
+  defaults:
+    image:
+      href: file:///var/lib/ironic/images/overcloud-full.qcow2
+      checksum: ca859ee7008151447f4fe51ef3049d1c202cffd82b07f34821b705eae193adb5eae0562156fbb3883382425b1ce0aa5e4ef58a63f3aaea18a35cd04d8d56e26d
+      kernel: file:///var/lib/ironic/images/overcloud-full.vmlinuz
+      ramdisk: file:///var/lib/ironic/images/overcloud-full.initrd
+  instances:
+  - hostname: compute-special
+    name: bm-4

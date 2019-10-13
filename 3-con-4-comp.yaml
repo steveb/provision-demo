@@ -1,0 +1,4 @@
+- name: Controller
+  count: 3
+- name: Compute
+  count: 4
