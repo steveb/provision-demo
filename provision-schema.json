@@ -3,27 +3,19 @@
     "items": {
         "type": "object",
         "properties": {
-            "name": {
-                "type": "string"
-            },
-            "hostname_format": {
-                "type": "string"
-            },
+            "name": {"type": "string"},
+            "hostname_format": {"type": "string"},
             "count": {
                 "type": "integer",
                 "minimum": 0
             },
-            "defaults": {
-                "type": "object"
-            },
+            "defaults": {"type": "object"},
             "instances": {
                 "type": "array",
                 "items": {
                     "type": "object",
                     "properties": {
-                        "capabilities": {
-                            "type": "object"
-                        },
+                        "capabilities": {"type": "object"},
                         "hostname": {
                             "type": "string",
                             "minLength": 2,
@@ -32,57 +24,31 @@
                         "image": {
                             "type": "object",
                             "properties": {
-                                "href": {
-                                    "type": "string"
-                                },
-                                "checksum": {
-                                    "type": "string"
-                                },
-                                "kernel": {
-                                    "type": "string"
-                                },
-                                "ramdisk": {
-                                    "type": "string"
-                                }
+                                "href": {"type": "string"},
+                                "checksum": {"type": "string"},
+                                "kernel": {"type": "string"},
+                                "ramdisk": {"type": "string"}
                             },
-                            "required": [
-                                "href"
-                            ],
+                            "required": ["href"],
                             "additionalProperties": false
                         },
-                        "name": {
-                            "type": "string"
-                        },
+                        "name": {"type": "string"},
                         "nics": {
                             "type": "array",
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "network": {
-                                        "type": "string"
-                                    },
-                                    "port": {
-                                        "type": "string"
-                                    },
-                                    "fixed_ip": {
-                                        "type": "string"
-                                    },
-                                    "subnet": {
-                                        "type": "string"
-                                    }
+                                    "network": {"type": "string"},
+                                    "port": {"type": "string"},
+                                    "fixed_ip": {"type": "string"},
+                                    "subnet": {"type": "string"}
                                 },
                                 "additionalProperties": false
                             }
                         },
-                        "profile": {
-                            "type": "string"
-                        },
-                        "provisioned": {
-                            "type": "boolean"
-                        },
-                        "resource_class": {
-                            "type": "string"
-                        },
+                        "profile": {"type": "string"},
+                        "provisioned": {"type": "boolean"},
+                        "resource_class": {"type": "string"},
                         "root_size_gb": {
                             "type": "integer",
                             "minimum": 4
@@ -93,9 +59,7 @@
                         },
                         "traits": {
                             "type": "array",
-                            "items": {
-                                "type": "string"
-                            }
+                            "items": {"type": "string"}
                         }
                     },
                     "additionalProperties": false
@@ -103,8 +67,6 @@
             }
         },
         "additionalProperties": false,
-        "required": [
-            "name"
-        ]
+        "required": ["name"]
     }
 }
