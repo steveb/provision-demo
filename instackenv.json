@@ -1,0 +1,266 @@
+{
+  "nodes": [
+    {
+      "name": "bm-0", 
+      "memory": 8192, 
+      "mac": [
+        "fa:16:3e:dd:de:56"
+      ], 
+      "capabilities": "boot_option:local", 
+      "pm_type": "fake-hardware", 
+      "disk": 80, 
+      "arch": "x86_64", 
+      "cpu": 4
+    }, 
+    {
+      "name": "bm-1", 
+      "memory": 8192, 
+      "mac": [
+        "fa:16:3e:57:cf:2d"
+      ], 
+      "capabilities": "boot_option:local", 
+      "pm_type": "fake-hardware", 
+      "disk": 80, 
+      "arch": "x86_64", 
+      "cpu": 4
+    }, 
+    {
+      "name": "bm-2", 
+      "memory": 8192, 
+      "mac": [
+        "fa:16:3e:27:82:5d"
+      ], 
+      "capabilities": "boot_option:local", 
+      "pm_type": "fake-hardware", 
+      "disk": 80, 
+      "arch": "x86_64", 
+      "cpu": 4
+    }, 
+    {
+      "name": "bm-3", 
+      "memory": 8192, 
+      "mac": [
+        "fa:16:3e:4e:c7:0e"
+      ], 
+      "capabilities": "boot_option:local", 
+      "pm_type": "fake-hardware", 
+      "disk": 80, 
+      "arch": "x86_64", 
+      "cpu": 4
+    }
+  ], 
+  "network_details": {
+    "bm_0": {
+      "ips": {
+        "public": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:e0:0b:37", 
+            "version": 4, 
+            "addr": "10.0.0.2", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_tenant": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:35:67:ed", 
+            "version": 4, 
+            "addr": "172.16.0.7", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_internal": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:c4:f2:7c", 
+            "version": 4, 
+            "addr": "172.17.0.3", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage_mgmt": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:2b:54:43", 
+            "version": 4, 
+            "addr": "172.19.0.17", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "provision": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:dd:de:56", 
+            "version": 4, 
+            "addr": "192.0.2.12", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:3d:e2:cb", 
+            "version": 4, 
+            "addr": "172.18.0.3", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ]
+      }, 
+      "id": "e3a81444-203c-42de-9db9-76cf0ba49af5"
+    }, 
+    "bm_1": {
+      "ips": {
+        "public": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:ce:67:da", 
+            "version": 4, 
+            "addr": "10.0.0.20", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_tenant": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:14:ff:6d", 
+            "version": 4, 
+            "addr": "172.16.0.16", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_internal": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:ea:a3:5c", 
+            "version": 4, 
+            "addr": "172.17.0.7", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage_mgmt": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:27:2e:05", 
+            "version": 4, 
+            "addr": "172.19.0.9", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "provision": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:57:cf:2d", 
+            "version": 4, 
+            "addr": "192.0.2.6", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:92:e0:91", 
+            "version": 4, 
+            "addr": "172.18.0.14", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ]
+      }, 
+      "id": "222e420f-1b04-463d-b237-04c4627dfea7"
+    }, 
+    "bm_2": {
+      "ips": {
+        "public": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:04:b9:5e", 
+            "version": 4, 
+            "addr": "10.0.0.3", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_tenant": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:48:95:d7", 
+            "version": 4, 
+            "addr": "172.16.0.2", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_internal": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:8b:0d:7d", 
+            "version": 4, 
+            "addr": "172.17.0.6", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage_mgmt": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:c8:21:cc", 
+            "version": 4, 
+            "addr": "172.19.0.12", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "provision": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:27:82:5d", 
+            "version": 4, 
+            "addr": "192.0.2.2", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:09:e5:78", 
+            "version": 4, 
+            "addr": "172.18.0.4", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ]
+      }, 
+      "id": "2cbea1be-e008-4d8b-948f-a7e96f27d182"
+    }, 
+    "bm_3": {
+      "ips": {
+        "public": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:26:9f:70", 
+            "version": 4, 
+            "addr": "10.0.0.1", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_tenant": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:86:06:b6", 
+            "version": 4, 
+            "addr": "172.16.0.10", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_internal": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:85:a5:c6", 
+            "version": 4, 
+            "addr": "172.17.0.11", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage_mgmt": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:db:05:9d", 
+            "version": 4, 
+            "addr": "172.19.0.20", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "provision": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:4e:c7:0e", 
+            "version": 4, 
+            "addr": "192.0.2.7", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ], 
+        "overcloud_storage": [
+          {
+            "OS-EXT-IPS-MAC:mac_addr": "fa:16:3e:24:bf:50", 
+            "version": 4, 
+            "addr": "172.18.0.8", 
+            "OS-EXT-IPS:type": "fixed"
+          }
+        ]
+      }, 
+      "id": "949c212c-e13c-402e-beac-915b3e63e28f"
+    }
+  }
+}
