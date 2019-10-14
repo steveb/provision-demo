@@ -1,0 +1,26 @@
+Train
+-----
+Basic functionality is available, users can start experimenting.
+
+Ussuri
+------
+
+CI changes early in the cycle:
+- switch RDO OVB jobs to use provision workflow early in the cycle
+- switch off nova/glance on jobs which don't need it (undercloud, multinode)
+
+Documentation tasks:
+- Fully document the provision yaml format
+- Document commands and processes for provision, scale-up, scale-down etc
+
+Development tasks:
+- polish the unprovision workflow (ease to delete whole overcloud, prompt
+  before deleting)
+- complete novajoin FreeIPA integration
+- remove TripleO reliance on glance to store images for ironic
+
+Vuvuzela
+--------
+- switch off nova and glance by default on the undercloud
+- have a documented upgrade process to move nova-based deployments to
+  provisioning workflow
