@@ -1,5 +1,5 @@
 - name: Controller
-  count: 3
+  count: 2
   defaults:
     image:
       href: file:///var/lib/ironic/images/overcloud-full.qcow2
@@ -9,8 +9,12 @@
   instances:
   - hostname: overcloud-controller-0
     name: bm-0
+  - name: bm-1
+    # retired forever
+    provisioned: false
   - hostname: overcloud-controller-1
-    name: bm-1
+    name: bm-7
+    provisioned: false
   - hostname: overcloud-controller-2
     name: bm-2
 - name: Compute

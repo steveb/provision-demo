@@ -1,5 +1,5 @@
 - name: Controller
-  count: 3
+  count: 2
   defaults:
     image:
       href: file:///var/lib/ironic/images/overcloud-full.qcow2
@@ -11,6 +11,7 @@
     name: bm-0
   - hostname: overcloud-controller-1
     name: bm-1
+    provisioned: false
   - hostname: overcloud-controller-2
     name: bm-2
 - name: Compute

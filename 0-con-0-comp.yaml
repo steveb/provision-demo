@@ -1,4 +1,20 @@
 - name: Controller
   count: 0
+  instances:
+  - hostname: overcloud-controller-0
+    provisioned: false
+  - hostname: overcloud-controller-1
+    provisioned: false
+  - hostname: overcloud-controller-2
+    provisioned: false
 - name: Compute
   count: 0
+  instances:
+  - hostname: compute-special
+    provisioned: false
+  - hostname: overcloud-novacompute-1
+    provisioned: false
+  - hostname: overcloud-novacompute-2
+    provisioned: false
+  - hostname: overcloud-novacompute-3
+    provisioned: false
