@@ -12,12 +12,16 @@ CI changes early in the cycle:
 Documentation tasks:
 - Fully document the provision yaml format
 - Document commands and processes for provision, scale-up, scale-down etc
+- Document upgrade procedure
 
 Development tasks:
 - polish the unprovision workflow (ease to delete whole overcloud, prompt
   before deleting)
 - complete novajoin FreeIPA integration
 - remove TripleO reliance on glance to store images for ironic
+- make tooling ready for nova->nova-less upgrades for the beginning of V
+- make provision command also output an updated ansible inventory for direct
+  provision->ansible scaling
 
 Vuvuzela
 --------

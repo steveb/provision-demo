@@ -14,7 +14,6 @@
     provisioned: false
   - hostname: overcloud-controller-1
     name: bm-7
-    provisioned: false
   - hostname: overcloud-controller-2
     name: bm-2
 - name: Compute
